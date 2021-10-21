@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-22T13:42:42 IST" name="Suite" finished-at="2021-09-22T13:44:54 IST" duration-ms="131761">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.MarketingEventsBrandingClass()[pri:1, instance:com.marketingeventsbranding.endtoendtest.EndToEndTest@625732]" name="MarketingEventsBrandingClass" class="com.marketingeventsbranding.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.marketingeventsbranding.endtoendtest.EndToEndTest@625732]" name="login" class="com.marketingeventsbranding.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-09-22T13:42:42 IST" name="Test" finished-at="2021-09-22T13:44:54 IST" duration-ms="131761">
+      <class name="com.marketingeventsbranding.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="BrowserFirst()[pri:0, instance:com.marketingeventsbranding.endtoendtest.EndToEndTest@625732]" started-at="2021-09-22T13:42:42 IST" name="BrowserFirst" finished-at="2021-09-22T13:42:56 IST" duration-ms="14382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserFirst -->
+        <test-method signature="login()[pri:0, instance:com.marketingeventsbranding.endtoendtest.EndToEndTest@625732]" started-at="2021-09-22T13:42:57 IST" name="login" finished-at="2021-09-22T13:42:57 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="MarketingEventsBrandingClass()[pri:1, instance:com.marketingeventsbranding.endtoendtest.EndToEndTest@625732]" started-at="2021-09-22T13:42:57 IST" name="MarketingEventsBrandingClass" finished-at="2021-09-22T13:44:54 IST" duration-ms="116794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarketingEventsBrandingClass -->
+      </class> <!-- com.marketingeventsbranding.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
