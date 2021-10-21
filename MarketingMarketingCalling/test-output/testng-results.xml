@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T13:59:47 IST" name="Suite" finished-at="2021-09-23T14:02:10 IST" duration-ms="143243">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.AddingMarketingCalling()[pri:1, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" name="AddingMarketingCalling" class="com.marketingmarketingcalling.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.CheckedCheckedAllInstitutionsData()[pri:2, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" name="CheckedCheckedAllInstitutionsData" class="com.marketingmarketingcalling.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.UpdateMarketingCallingFields()[pri:3, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" name="UpdateMarketingCallingFields" class="com.marketingmarketingcalling.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" name="login" class="com.marketingmarketingcalling.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-09-23T13:59:47 IST" name="Test" finished-at="2021-09-23T14:02:10 IST" duration-ms="143243">
+      <class name="com.marketingmarketingcalling.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" started-at="2021-09-23T13:59:47 IST" name="intibase" finished-at="2021-09-23T13:59:57 IST" duration-ms="10465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" started-at="2021-09-23T13:59:57 IST" name="login" finished-at="2021-09-23T13:59:57 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddingMarketingCalling()[pri:1, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" started-at="2021-09-23T13:59:57 IST" name="AddingMarketingCalling" finished-at="2021-09-23T14:01:25 IST" duration-ms="87620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingMarketingCalling -->
+        <test-method signature="CheckedCheckedAllInstitutionsData()[pri:2, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" started-at="2021-09-23T14:01:25 IST" name="CheckedCheckedAllInstitutionsData" finished-at="2021-09-23T14:01:38 IST" duration-ms="13322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckedCheckedAllInstitutionsData -->
+        <test-method signature="UpdateMarketingCallingFields()[pri:3, instance:com.marketingmarketingcalling.endtoendtest.EndToEndTest@625732]" started-at="2021-09-23T14:01:38 IST" name="UpdateMarketingCallingFields" finished-at="2021-09-23T14:02:10 IST" duration-ms="31317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateMarketingCallingFields -->
+      </class> <!-- com.marketingmarketingcalling.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
