@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T13:35:27 IST" name="Suite" finished-at="2021-09-23T13:37:23 IST" duration-ms="116064">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.CreateBiWeeklyCall()[pri:1, instance:com.marketingbiweeklycall.endtoendtest.EndToEndTest@120f102b]" name="CreateBiWeeklyCall" class="com.marketingbiweeklycall.endtoendtest.EndToEndTest"/>
+        <method signature="EndToEndTest.UpdateBiWeeklyCall()[pri:2, instance:com.marketingbiweeklycall.endtoendtest.EndToEndTest@120f102b]" name="UpdateBiWeeklyCall" class="com.marketingbiweeklycall.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.marketingbiweeklycall.endtoendtest.EndToEndTest@120f102b]" name="login" class="com.marketingbiweeklycall.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-09-23T13:35:27 IST" name="Test" finished-at="2021-09-23T13:37:23 IST" duration-ms="116064">
+      <class name="com.marketingbiweeklycall.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.marketingbiweeklycall.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-23T13:35:27 IST" name="intibase" finished-at="2021-09-23T13:35:48 IST" duration-ms="21438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.marketingbiweeklycall.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-23T13:35:48 IST" name="login" finished-at="2021-09-23T13:35:48 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CreateBiWeeklyCall()[pri:1, instance:com.marketingbiweeklycall.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-23T13:35:49 IST" name="CreateBiWeeklyCall" finished-at="2021-09-23T13:37:01 IST" duration-ms="72693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateBiWeeklyCall -->
+        <test-method signature="UpdateBiWeeklyCall()[pri:2, instance:com.marketingbiweeklycall.endtoendtest.EndToEndTest@120f102b]" started-at="2021-09-23T13:37:01 IST" name="UpdateBiWeeklyCall" finished-at="2021-09-23T13:37:23 IST" duration-ms="21320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBiWeeklyCall -->
+      </class> <!-- com.marketingbiweeklycall.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
