@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-22T11:13:30 IST" name="Suite" finished-at="2021-10-22T11:15:27 IST" duration-ms="117225">
+    <groups>
+      <group name="regration">
+        <method signature="EndToEndTest.LeadsFieldData()[pri:1, instance:com.marketingleads.endtoendtest.EndToEndTest@41fecb8b]" name="LeadsFieldData" class="com.marketingleads.endtoendtest.EndToEndTest"/>
+      </group> <!-- regration -->
+      <group name="smoke">
+        <method signature="EndToEndTest.login()[pri:0, instance:com.marketingleads.endtoendtest.EndToEndTest@41fecb8b]" name="login" class="com.marketingleads.endtoendtest.EndToEndTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-10-22T11:13:30 IST" name="Test" finished-at="2021-10-22T11:15:27 IST" duration-ms="117225">
+      <class name="com.marketingleads.endtoendtest.EndToEndTest">
+        <test-method is-config="true" signature="intibase()[pri:0, instance:com.marketingleads.endtoendtest.EndToEndTest@41fecb8b]" started-at="2021-10-22T11:13:30 IST" name="intibase" finished-at="2021-10-22T11:13:47 IST" duration-ms="16533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intibase -->
+        <test-method signature="login()[pri:0, instance:com.marketingleads.endtoendtest.EndToEndTest@41fecb8b]" started-at="2021-10-22T11:13:47 IST" name="login" finished-at="2021-10-22T11:13:47 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="LeadsFieldData()[pri:1, instance:com.marketingleads.endtoendtest.EndToEndTest@41fecb8b]" started-at="2021-10-22T11:13:47 IST" name="LeadsFieldData" finished-at="2021-10-22T11:15:27 IST" duration-ms="100079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadsFieldData -->
+      </class> <!-- com.marketingleads.endtoendtest.EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
